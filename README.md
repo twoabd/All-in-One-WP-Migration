@@ -1,6 +1,11 @@
 # Restore from Server without Unlimited Extension   
  
- Replace this (Tested on version 7.26) :   
+ 1. All in one WP Migration is an Open Source plugin, it means it is free to modify, edit or distribute.
+ 2. Tested on version 7.26
+ 3. File of file to be eidted : YourWordpressInstallation\wp-content\plugins\all-in-one-wp-migration\lib\view\assets\javascript\backups.min.js
+ 
+ 
+ Replace this :   
     
     /* eslint-disable no-unused-vars */
 		if (Ai1wm.MultisiteExtensionRestore) {
